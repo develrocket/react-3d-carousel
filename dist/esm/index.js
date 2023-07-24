@@ -426,7 +426,6 @@ const Carousel = React.forwardRef((props, ref) => {
     // Render the carousel elements based on its setup
     const renderElement = (listItem, index) => {
         var _a;
-        console.log(listItem);
         let style = `${styles$2["itemContainer"]}`;
         style += is3D ? ` ${styles$2["threed"]}` : ` ${styles$2["flat"]}`;
         let isSelected = index === showingIndex;
